@@ -1,0 +1,20 @@
+name: LagGuard
+version: 1.1
+main: com.ascendia.antiLag.LagGuard
+api-version: 1.20
+authors: [VonTheDev]
+description: Professional Anti-Lag system with item clearing and server diagnostics.
+commands:
+  servercheck:
+    description: Starts a system analysis of the server.
+    usage: /servercheck
+    permission: lagguard.check
+  servercheck1:
+    description: if servercheck fails use this
+    usage: /servercheck1
+    permission: lagguard.check
+    hidden: true
+permissions:
+  lagguard.check:
+    description: Allows using the diagnostic tool.
+    default: op

@@ -1,0 +1,19 @@
+# ==========================================
+#         LagGuard Configuration
+# ==========================================
+
+auto-clear:
+  # How often to clear items (in seconds)
+  # 180 seconds = 3 minutes
+  interval-seconds: 180
+
+  # Items dropped within this many seconds will NOT be removed.
+  # This prevents players from losing items they JUST dropped accidentally.
+  safe-time-seconds: 30
+
+  # Warnings to broadcast before clearing (in seconds remaining)
+  warnings: [120, 60, 30, 5, 4, 3, 2, 1]
+
+messages:
+  prefix: "&6[LagGuard] "
+  clear-success: "&aRemoved &f{count} &aold items from the ground."
